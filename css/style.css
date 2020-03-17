@@ -1,0 +1,28 @@
+.flex-container-satu, .flex-container-dua, .flex-container-tiga {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container-satu > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container-dua > div.menu {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    flex-grow: 1;
+  }
+
+  .flex-container-dua > div.menu .tombol{
+    display: block;
+  }
+
+  .flex-container-dua > div.konten {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    flex-grow: 4;
+  }
